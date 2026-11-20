@@ -39,6 +39,14 @@ pub fn build(b: *std.Build) void {
         "celestine_get_spectrum_size",
         "celestine_get_buffer_ptr",
         "celestine_get_buffer_size",
+        "celestine_poly_note_on",
+        "celestine_poly_note_off",
+        "celestine_all_notes_off",
+        "celestine_load_preset",
+        "celestine_get_active_voices",
+        "celestine_get_peak_freq",
+        "celestine_get_spectral_centroid",
+        "celestine_get_rms",
     };
     b.installArtifact(wasm);
 

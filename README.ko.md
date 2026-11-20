@@ -37,6 +37,16 @@ zig build test
 zig build -Doptimize=ReleaseSmall
 ```
 
+## 0.2.0 변경 사항
+
+- 보이스 스틸링과 서스테인 페달을 지원하는 8보이스 `PolySynth`
+- 코러스/딜레이 이펙트, LFO, 프리셋
+- 나이퀴스트 근처 고공진에서도 안정적인 ZDF 상태 변수 필터
+- 창 함수(Hann, Hamming, Blackman-Harris), 서브빈 피크 보간, 스펙트럼 중심/롤오프/평탄도
+- 16비트 PCM 및 32비트 float WAV 출력
+- CLI: `render`, `chord`, `analyze`, `bench`, `presets` (`--json` 지원, 소수 초 단위 길이 허용)
+- WASM: 0.1.0 내보내기를 유지하면서 폴리포니, 프리셋, 파라미터, 텔레메트리 함수 추가
+
 ## 라이선스
 
 MIT License - Copyright (c) 2026 Jeong Hoon Kim
