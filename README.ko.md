@@ -4,7 +4,7 @@
 
 고정밀 비트 단위 오디오 DSP 모듈러 신시사이저 엔진 및 1024포인트 실시간 FFT 스펙트럼 분석기로, 네이티브 바이너리와 12 KB 크기의 독립형 WebAssembly 아티팩트(`-target wasm32-freestanding`)로 컴파일되는 Zig 기반 시스템입니다.
 
-[English Documentation](README.md) • [Interactive WebAssembly Demo](https://aetherx86.github.io/celestine/)
+[English Documentation](README.md) • [Interactive WebAssembly Demo](https://omakasekim.github.io/celestine/)
 
 ## 아키텍처
 
